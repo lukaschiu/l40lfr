@@ -1,0 +1,75 @@
+body{
+    margin-top: 1vh;
+    /*background-color: rgb(56,27,67);*/
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+p{
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
+.valleyMetroLogo{
+    height: 10vh;
+    width: auto;
+    
+}
+.title{
+    font-size: 5vh;
+    text-decoration: underline;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.info{
+    font-size: 2.2vh;
+    line-height: 150%;
+}
+.content-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bus-title{
+    font-size: 4vh;
+    margin-bottom: 1vh;
+}
+.bus-photo{
+    width: 60vh;
+    height: auto;
+    border: solid;
+    border-color: whitesmoke;
+    border-width: 0.1vh;
+    transition: width 0.5s;
+}
+.bus-photo:hover{
+    width: 62vh;
+}
+.footer{
+    padding-bottom: 0vh;
+    margin-bottom: 0vh;
+}
+a:link{
+    color: whitesmoke;
+}
+a:visited{
+    color: whitesmoke;
+}
+a:hover{
+    color: lavender;
+}
+a:active{
+    color: lavenderblush;
+}
