@@ -74,7 +74,39 @@ a:active{
     color: lavenderblush;
 }
 @media screen and (max-width: 915px) {
-    .valleyMetroLogo{
-        display: none;
+    .flex-container {
+        flex-direction: column;
+    }
+    
+    .valleyMetroLogo {
+        height: 8vh;
+    }
+
+    .title {
+        font-size: 4vh;
+        text-align: center;
+    }
+
+    .info {
+        font-size: 2vh;
+        padding: 0 2vh;
+    }
+
+    .bus-photo {
+        width: 90vw;
+        height: auto;
+    }
+
+    .bus-photo:hover {
+        width: 92vw;
+    }
+
+    .bus-title {
+        font-size: 3.5vh;
+    }
+
+    .footer {
+        font-size: 2vh;
+        text-align: center;
     }
 }
